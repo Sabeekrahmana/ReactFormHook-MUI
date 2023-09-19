@@ -41,7 +41,7 @@ const InputLoginField = ({ register, showPassword, userData, handleTogglePasswor
                             endAdornment: (
                                 <InputAdornment position='end' >
                                     <IconButton onClick={handleTogglePasswordVisibility}>
-                                        {showPassword ? <VisibilityOff /> : <Visibility />}
+                                        {showPassword ? <Visibility /> : <VisibilityOff />}
                                     </IconButton>
                                 </InputAdornment>
                             ),
